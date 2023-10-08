@@ -1,0 +1,76 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4; 
+    background-color: rgb(215, 217, 219);
+}
+
+h1, h2 
+{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(36, 36, 71);
+}
+h3
+{
+    font-size: 14px;
+}
+.photo
+{
+    width: 200px;
+    border: 3px solid #bcb2b2; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.info 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+    color: rgb(238, 231, 231);
+}
+ul li
+{
+    list-style: none; 
+    margin: 10px 0;
+}
+ul li span 
+{
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ac9bbc;
+    border-radius: 10px;
+}
+hr
+{
+    color: #fefcfc;
+    background-color: rgb(66, 66, 169);
+    height: 4px; 
+    border-style: solid;
+    width: 50%;
+    margin:0 ;
+    border: none;
+}
+.right-bg 
+{
+    background-color: #333030; /* Left side background color */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%; /* Set it to cover the left side */
+    height: 120%;
+    border-top-left-radius: 20px; /* Adjust the border radius as needed */
+    border-bottom-left-radius: 20px; /* Adjust the border radius as needed */
+    content: "";
+}
+.clearfix::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
